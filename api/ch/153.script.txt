@@ -1,0 +1,1242 @@
+@msgmono
+@play BGM1 url=雨の日に time=1000 loop=always
+
+[r]
+之后接连两天，我都没能再见到晴雨。[r]
+即便是去她家做饭，也只是把饭菜准备好后留下字条摆在桌上。[r][l]
+直到第三天的下午，我才得到和她见面的机会。[r][l]
+但那却是在医院的病房中。[l][r]
+[r]
+……[r][l]
+…………[p]
+
+@in BG1 url=bg_19_1 alpha=0 time=0
+@wait in
+@action BG1 zoomcenter=(1024,360) xstart=-200 x=-1000 zoomstart=75 ystart=-100 y=200 zoom=250 time=100000
+@action BG1 alpha=1 time=1000
+@wait time=400
+;走路上下
+@motion BG1 y=(3,400,-2)|(4,80,0)|(-3,360,2)|(-3,120,0) loop=always
+@wait time=1000
+
+这天下午，我像往常一样按着平时的路线下课回家。[l][r]
+本周的课程已经结束了，晴雨那边也不是没钱吃不起饭需要我过去援助。[r][l]
+毕竟现在这种局面我再露脸多少也有点尴尬，还是少去惹她不快的好。[r][l]
+[r]
+只是冥思苦想了这么久，我还是没有找到晴雨生气的理由。[r][l]
+从与她分开之后，晴雨出道、演出，[w]并逐渐成为一个受人欢迎的偶像。[r]
+我与她之间的距离却越来越远，也越来越无法猜透她的心思。[r][l]
+[r]
+@play SE1 url=钉宫手机铃
+晴雨……你究竟想要我怎么样呢？[p]
+@msgdia
+“hentai、hentai、hentai、hentai！bakadaihentai！”[p]
+@stop BGM1 time=1000
+@breakmotion BG1
+@play BGM1 url=ルナティック delay=1000 loop=always
+熟悉的来电铃声突然响起，打断了我的思绪。[p]
+@in BG2 url=bg_19_1 alpha=0 time=0
+@action BG2 zoomcenter=(0,0) zoom=67 time=0
+@action BG2 alpha=1 time=1000
+@wait time=400
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-169
+「为什么会在这个点给我打电话？」[p]
+
+虽然有些疑惑，但我还是按下了通话键。[p]
+
+@dianame 左晴雨
+@play VO1 url=2-qingyu-170
+「小佳……我生病了……」[p]
+
+妹妹那有气无力的声音从手机另一头传来。[p]
+
+;play SE1 url挂断
+@play SE1 url=跑步声 loop=always 
+
+@action BG1 alpha=0 time=500
+@wait action
+
+……[p]
+
+@stop SE1 
+
+@in BG2 url=bg_21_2 zoom=75 x=-240 y=-140 time=800
+@diaface url=xiaojia_e_face_shirt_embarrass_3
+@dianame 左小佳
+@play VO1 url=2-xiaojia-171
+「师傅！去三院！」[p]
+我匆忙地拦下一辆出租车，用有些走调的声音报出了医院的名字。[p]
+……[p]
+窗外，阳光烂漫。可我心头的乌云却已悄然压境。[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_3
+@dianame 左小佳
+@play VO1 url=2-xiaojia-172
+「师傅，再快点！」[p]
+
+@dianame 司机
+「莫急，已经很快啦。」[p]
+
+师傅瞟了眼后视镜，借进了另一条车道，转眼间就超过好几辆车。[p]
+
+@dianame 司机
+「这开车嘛，得先要稳当，然后再去想其它的。安全第一，你说是不是啊小伙子。」[p]
+
+@diaface url=xiaojia_e_face_shirt_other_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-173
+「是是是。」[p]
+
+我有些不耐烦的应付着。倒不是怪师傅车开得不好，只是我完全没有心思去思考别的事情。[p]
+当晴雨那声“小佳”传入耳中之时，我便知道肯定是出了事情。[p]
+焦躁和不安塞满了全部心神，我不由得攥起拳头。[p]
+晴雨……千万别有什么事啊……[p]
+
+@dianame 司机
+「诶？[w]小伙子，我咋感觉……你像电视里的哪个人啊？」[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-174
+「没有吧，肯定是认错了。」[p]
+
+心急如焚的我并不想和司机师傅多做扯皮，但是他看起来像是来了兴致。[p]
+@dianame 司机
+「呵呵，谦虚什么。人长得那么秀气，美得很嘛！」[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-175
+「美？」[p]
+
+我有些无语地看了看司机师傅，后视镜中映着他那张棱角封面的国字脸，完全看不出在开玩笑的样子。[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-176
+「我可是男人诶……」[p]
+
+@dianame 司机
+「咱的眼光是不会错的。」[p]
+
+师傅抬起搭在方向盘上的手朝我摆了摆。[p]
+
+@dianame 司机
+「你看我这该死的记性，这名字怎么这一时半会偏偏就想不起来了呢。我说小伙子，你真没被人说过长得特像哪个明星？」[p]
+
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-177
+「哪有的事，您快点开吧。」[p]
+
+@dianame 司机
+「哈哈，不碍事不碍事。你们年轻人啊，就是心急，我跟你说啊……」[p]
+@in BG2 url=bg_21_3 zoom=75 x=-240 y=-140 time=1500
+我想快点结束话题，可眼下车子刚上了中环，离目的地还有一段距离。[p]
+师傅的兴致还是没有褪去，看来这段时间只能任由他去了。[p]
+……[r][l]
+………[r][l]
+…………[p]
+@action BG1 alpha=0 time=300
+@action BG2 alpha=0 time=800
+@wait action
+@msgmono
+[r]
+车稳稳地停在了三院对面的街边，没等师傅开口，我便主动结了账单。[r][l]
+;推开车门，风卷着雨水拍打在我的脸上。[r][l]
+;@play SE1 url=雨声 loop=always
+;该死，明明上车时候天气还行，只不过隔了一个区的跨度，这要命的雷阵雨究竟是从哪里来的！[p]
+@play SE2 url=跑步声 loop=always
+[r]
+关门,下车，一气呵成。看准了一个红灯的机会，我加速冲过了不算拥挤的大街。[l][r]
+全然不顾身后传来车辆按喇叭的声音和叫骂声。[r][l]
+[r]
+@stop SE2
+
+@in BG1 url=bg_23_2 alpha=0 time=0
+@action BG1 zoomcenter=(0,0) zoom=67 time=0
+@action BG1 alpha=1 time=1000
+@wait in
+晴雨……你可要好好地等着我啊！[p]
+
+@action BG1 alpha=0 time=1000
+@wait time=200
+@in BG2 url=bg_24_2 alpha=0 time=0
+@wait in
+@action BG2 zoomcenter=(0,0) zoom=67 time=0
+@action BG2 alpha=1 time=1000
+@wait time=500
+@action BG2 alpha=0 time=1000
+@msgdia
+[r]
+是这里吗？[p]
+站在病房前的我，此刻心脏不知是因为奔跑还是恐惧，正剧烈地跳动着，虽然努力想要平复心情，但并不能做到。[p]
+@play VO1 url=2-qingyu-178
+@dianame ???
+「啊……完蛋了，完蛋了啊！！」[p]
+病房里传出了略带哭腔的声音，那音色无比的熟悉，正是平时总是冲着自己发火，任性的妹妹的声音。[p]
+@dianame 左晴雨
+@play VO1 url=2-qingyu-179
+「完了！这次死定了没救了啊！」[p]
+@flag A1
+@in BG1 url=bg_5 zoom=60 x=-430 y=-245 time=1000
+@wait in
+透过房门的玻璃，可以看到病房里的景象。[p]
+……[p]
+@in CHR2 url=qingyu_b_hoodie_unhappy_3 alpha=0
+@action CHR2 zoom=65 y=-310 alpha=0
+@wait action
+@action CHR2 alpha=1 time=300
+@wait action
+;跺脚
+@motion CHR2 y=(-20,60,1)|(2,48,-1)|(-8,30,1)|(2,17,-1) loop=0
+眼前这个在不停地用脚踩着床单和被子，死命折腾枕头的女孩真的是那个乐观开朗的晴雨吗？！[p]
+@action CHR2 alpha=0 time=200
+我原本已经做好了面对晴雨的准备，现在看来情况比我想的还要严峻。[p]
+不行！在这时候身为哥哥的自己更应该打起精神来才行。[p]
+稍稍平复了下情绪，我缓缓推开了病房的门。[p]
+@in BG3 url=white time=300
+@wait in
+@play SE1 url=推门
+@action CHR2 alpha=0
+@action BG1 alpha=0 
+@action BG3 alpha=0 time=500
+@wait action
+@action BG1 alpha=1 time=800
+@wait action
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-180
+「晴雨……」[p]
+@in CHR2 url=qingyu_b_hoodie_shock_2 alpha=0
+@action CHR2 zoom=65 y=-310 alpha=0
+@action CHR2 alpha=1 time=300
+话说出口我才发现自己的声音在颤抖，晴雨发现我来了，一直忍着的泪水才决堤而出，一把扑到了我的怀里。[p]
+@clear BG3
+@in CHR2 url=qingyu_c2_hoodie_sad x=260 y=-185 alpha=0
+@wait in
+@action CHR2 zoom=61 alpha=1
+@wait action
+@action CHR2 zoom=75 y=-100 time=340
+@dianame 左晴雨
+@play VO1 url=2-qingyu-181
+「小佳，完了，都完了……呜呜呜呜……」[p]
+@action CHR2 alpha=0 time=300
+我将手轻轻放在晴雨背上，让她的头紧紧地贴在胸口，我有多少年没有见过晴雨哭成这样了呢？[p]
+心里如同被针刺一般，旧时未愈的伤疤一同被揭起，仍旧不断地在滴着血。[p]
+
+@in FG1 url=whitemask time=300
+@in BG1 url=bg_24_1 alpha=0 time=0
+@action BG1 zoomcenter=(0,0) zoom=67 time=0
+@action BG1 alpha=1 time=600
+@msgdia
+@dianame 左晴雨
+@play VO1 url=2-qingyu-182
+「爸爸，爸爸和妈妈……」[p]
+那个时候也是那样，晴雨抱着我，眼泪将衬衣浸透。[p]
+也正是那时我才下定决心……[p]
+@stop BGM1 time=1000
+@action FG1 alpha=0 time=400
+@in BG1 url=bg_5 zoom=60 x=-430 y=-245 time=1000
+@wait in
+@msgdia
+我将晴雨拥入怀中，轻轻地抚摸着她的头发。[p]
+@diaface url=xiaojia_e_face_shirt_embarrass_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-183
+「没事的，现在医学这么发达，如果尽早治疗一定会没事的，哥哥会一直陪着你的。」[p]
+@in CHR1 url=qingyu_d_hoodie_oo_2 y=-185 zoom=61 alpha=1
+@wait in
+;发抖优化
+@motion CHR1 x=(2,10,1)|(-2,10,-1) y=(-2,10,1)|(2,10,-1) loop=6
+@wait time=400
+@dianame 左晴雨
+@play VO1 url=2-qingyu-184
+「演唱会完蛋了啊！！」[p]
+
+我和晴雨的声音重合在了一起。[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-185
+「……诶？」[p]
+
+@in CHR2 url=qingyu_b_hoodie_shock_1 alpha=0
+@wait in
+@action CHR2 zoom=65 y=-310
+@action CHR1 alpha=0 time=10
+@wait time=10
+@action CHR2 alpha=1 time=300
+
+@dianame 左晴雨
+@play VO1 url=2-qingyu-186
+「哈？你在说什么？」[p]
+
+晴雨从我的怀里挣开，一脸疑惑的看着我。[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_3
+@dianame 左小佳
+@play VO1 url=2-xiaojia-187
+「不用瞒着哥哥的，我……」[p]
+@play SE1 url=推门
+话说到一半，身后便传来了敲门声，紧接着，一名身穿白大褂，医生模样的中年男性走了进来。[p]
+@in CHR1 url=doctor x=800 y=150 zoom=120 time=300 isH=true isV=false
+@wait in
+@dianame 貌似医生的男人
+「哦，是左晴雨的家属吗？」[p]
+@play SE1 url=翻纸01
+他看了我一眼，翻了翻手上的病历，然后走到晴雨面前。[p]
+@clear CHR2 time=800
+@clear CHR1 time=100
+@wait clear
+@in CHR1 url=doctor x=700 y=200 zoom=150 time=200 isH=true isV=false
+@wait in
+@in CHR2 url=qingyu_d_hoodie_oo_2 y=-185 x=0 zoom=61 alpha=1 
+@wait in
+@dianame 医生
+「都说了要好好休息，静养。老老实实地躺着去，别再下床走动了。」[p]
+@dianame 左晴雨
+@play VO1 url=2-qingyu-188
+「哦。」[p]
+@action CHR2 alpha=0 time=200
+你只有到了医生面前才能变老实吗！[p]
+等等，我家妹妹好像对我之外的所有人都挺有礼貌的……[p]
+@action CHR1 alpha=0 time=200
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-189
+「大夫，晴雨的情况到底怎么样了？要手术吗？还是要化疗？我是晴雨的哥哥，您不要瞒着我啊。」[p]
+我一把抓起医生的手，向他询问晴雨的病情。[p]
+@action CHR1 alpha=0 time=200
+@in CHR2 url=qingyu_d_hoodie_angry_1 alpha=0
+@wait in
+@action CHR2 zoom=61 y=-190 alpha=1
+@dianame 左晴雨
+@play VO1 url=2-qingyu-190
+「左 小 佳！你脑子里都装的什么？！」[p]
+@motion BG1 y=(-8,24,1)|(6,17,1)|(0,20,1) loop=1
+@action CHR2 alpha=0 time=100
+晴雨的声音突然传了过来，她像是怒气冲冲地抄起了刚刚捡起的枕头。[p]
+搞什么啊，我说什么奇怪的话吗？[p]
+@in CHR1 url=doctor y=200 zoom=150 time=200
+@wait in
+@dianame 医生
+「手术，化疗？」[p]
+
+连不苟言笑的医生也不禁笑出了声，随后他像是注意到了自己的失态，尴尬地咳嗽了两声。[p]
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-191
+「现在治疗癌症不用这些了吗？」[p]
+;发抖优化
+@motion CHR1 x=(2,10,1)|(-2,10,-1) y=(-2,10,1)|(2,10,-1) loop=6
+@wait time=400
+@dianame 医生
+「哈哈哈哈哈！」[p]
+@dianame 医生
+「这真是……让你看笑话了。」[p]
+这一次医生实在忍不住了，一直手扶在床边，身体不断颤抖着。[p]
+@clear CHR1 time=300
+@flag A2
+@msgdia
+@in BG1 url=bg_5 time=100 x=-100 y=-20
+@in CHR2 url=qingyu_d_hoodie_angry_1 x=400 time=200
+@wait in
+@dianame 左晴雨
+@play VO1 url=2-qingyu-192
+「谁给你说是癌症啦？！」[p]
+@action CHR2 alpha=0 time=100
+@in BG2 url=bg_5 zoom=60 x=-430 y=-245 time=100
+@wait in
+
+……[r][l]
+………[p]
+王牌投手左晴雨振臂高呼了起来——很好，一击精准的直球稳稳地命中左小佳的脑袋！[p]
+我都想给自己配上这样的旁白了。[p]
+@clear CHR2
+@wait clear
+@in CHR1 url=doctor y=150 zoom=120 time=300
+@wait in
+@dianame 医生
+「好了好了，都消停点吧，这里毕竟是医院。」[p]
+
+刚才笑得最厉害的不是医生您吗！[p]
+拾起刚刚砸中我面部的枕头，医生无奈地摇了摇头，走到了我的面前。[p]
+@in CHR1 url=doctor y=200 zoom=150 time=200
+@wait in
+@dianame 医生
+「你是晴雨的哥哥吧？不用太担心，晴雨没什么太大的问题，只是急性胃炎，没你想的那么严重。」[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_2
+@dianame 左小佳
+@play VO1 url=2-xiaojia-193
+「哈？」[p]
+
+我不由得张大嘴巴。[p]
+
+@dianame 医生
+「这两天按时挂点点滴，多休息几天就差不多了，晴雨，身体还难受吗？」[p]
+
+
+@dianame 左晴雨
+@play VO1 url=2-qingyu-194
+@in CHR2 url=qingyu_d_hoodie_angry_1 alpha=0 zoom=61 x=-50 y=-190 isH=true isV=false 
+@wait in
+@action CHR2 x=-30 alpha=1 time=200
+@wait time=200
+「已经好多了，就是被这个家伙气得不行！」[p]
+晴雨答道，然后朝着我吐了吐舌头做了个鬼脸。[p]
+医生苦笑着，把病历递给了我。[p]
+@action CHR2 alpha=0 time=200
+@dianame 医生
+「不过看她这么闹腾可能得多住几天院了，我也正好要个签……[w]咳！我也正好多观察一下病情不要反复。」[p]
+
+医生好像无形间暴露了什么，不过这里我就当没发现好了。[p]
+@action CHR1 alpha=0 time=300
+随后医生大致交代了一下注意事项，并叮嘱我好好照顾病人，便打算离开了。[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-195
+「啊，对了，大夫。」[p]
+@diaface url=xiaojia_e_face_shirt_embarrass_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-196
+「晴雨怎么会得上胃炎的？」[p]
+明明前几天还是一副活蹦乱跳的样子。[p]
+@in CHR1 url=doctor x=800 y=150 zoom=120 time=300 isH=true isV=false
+@wait in
+@dianame 医生
+「饮食不规律，好像有几天没怎么吃东西了，然后昨天又暴饮暴食。[l]做艺人本身压力就大，你这个当哥的是怎么照顾妹妹的？」[p]
+@action CHR1 alpha=0 time=200
+没吃东西？暴饮暴食？[p]
+面对医生的责备我倒是没有反驳的意思。[l][r]
+不管怎么说，本应由我照顾的妹妹生了病，那就确实是我的责任。[p]
+@clear BG2
+@wait time=300
+等医生走了以后，我来到晴雨的病床前。[p]
+@action BG2 alpha=1 time=1000
+@diaface url=xiaojia_e_face_shirt_other_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-197
+「这两天没怎么好好吃饭吗？我不是做好便当了吗？」[p]
+
+@dianame 左晴雨
+「………」[p]
+晴雨扭过头去。[p]
+@diaface url=xiaojia_e_face_shirt_other_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-198
+「说啊，怎么回事？」[p]
+
+@in CHR2 url=qingyu_b_hoodie_unhappy_2 zoom=65 y=-310 alpha=0
+@wait in
+@action CHR2 alpha=1 time=200
+@dianame 左晴雨
+@play VO1 url=2-qingyu-199
+「不是因为我！都是怪你！」[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-200
+「怪我？」[p]
+
+这我就有点摸不着头脑了。[p]
+
+@in CHR2 url=qingyu_c2_hoodie_unhappy isH=true isV=false y=-185 zoom=61 alpha=1 time=100
+@wait in
+@dianame 左晴雨
+@play VO1 url=2-qingyu-201
+「都是因为你说……不来……」[p]
+@action CHR2 alpha=0 time=200
+晴雨把被子拉了起来，挡住了半张脸。[p]
+嘴巴和鼻子也被蒙在了被子之下，听不清楚到底说了什么。[p]
+
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-202
+「算了……总之都是你自作自受，之后别这么乱来了！」[p]
+
+我按了按有点发昏的脑袋，还没从刚才的闹剧中缓过劲来。[p]
+
+@in CHR2 url=qingyu_c2_hoodie_embarrass_1 alpha=0
+@wait in
+@action CHR2 zoom=61 y=-185 alpha=1
+@motion CHR2 x=(2,10,1)|(-2,10,-1) y=(-2,10,1)|(2,10,-1) loop=1
+@wait time=200
+@dianame 左晴雨
+@play VO1 url=2-qingyu-203
+「但是但是……已经完了……」[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_2
+@dianame 左小佳
+@play VO1 url=2-xiaojia-204
+「什么完了？」[p]
+
+难道还有什么没说的么？我不禁又担心了起来。[p]
+
+@dianame 左晴雨
+@play VO1 url=2-qingyu-205
+「演唱会完蛋了啊！」[p]
+晴雨突然自暴自弃地喊了出来。[p]
+……[p]
+这也难怪，如果按照医生的说法，还需要继续来医院输液，之后也需要一段时间调养。[p]
+可以肯定，演唱会前的合练基本上是泡汤了。[p]
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-206
+「那也是没办法的事啊，生病是意外。」[p]
+
+稍稍过了一会儿，晴雨再次开口了。[p]
+
+@in CHR2 url=qingyu_c2_hoodie_sad alpha=0
+@wait in
+@action CHR2 zoom=61 y=-185
+@action CHR2 alpha=1 time=200
+@wait action
+@dianame 左晴雨
+@play VO1 url=2-qingyu-207
+「不行，那是重要的一周年演出……」[p]
+
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-208
+「不可以勉强自己！」[p]
+
+我毫不犹豫地打断了她的话。[p]
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-209
+「老老实实和经纪人打电话坦白吧，看看还有没有什么其他补救的办法。」[p]
+
+胃炎根据情况不同恢复的速度也不一样，虽然她刚才还又踢又闹，但多休养总是不会错的。[p]
+
+@in CHR1 url=qingyu_d_hoodie_oo_1 alpha=0 zoom=61 y=-190
+@wait in
+@action CHR2 alpha=0 time=50
+@action CHR1 alpha=1 time=100
+@wait action
+@dianame 左晴雨
+@play VO1 url=2-qingyu-210
+「不，不可能的，要是芊姐知道我生病的原因……绝对没有我好果子吃的……死也不能打给芊姐！」[p]
+
+@action CHR1 alpha=0 time=200
+好绝望，这次住院可以说是自作自受的典型案例了。[p]
+@diaface url=xiaojia_e_face_shirt_other_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-211
+「那，那怎么办。」
+
+搞得我也开始慌乱起来了。[p]
+
+@in CHR2 url=qingyu_d_hoodie_angry_1 alpha=0
+@wait in
+@action CHR2 zoom=61 y=-190 alpha=1
+@dianame 左晴雨
+@play VO1 url=2-qingyu-212
+「绝对，绝对不能打电话给芊姐！她一定会将我给劈成两半，没错！绝对！」[p]
+@in CHR1 url=qingyu_c2_hoodie_unhappy alpha=0 zoom=61 y=-190 
+@wait in
+@action CHR2 alpha=0 time=50
+@action CHR1 alpha=1 time=100
+@wait action
+晴雨用决绝的目光盯着我，双臂交叉在身前摆出了一个大大的NG。[p]
+@diaface url=xiaojia_e_face_shirt_embarrass_2
+@dianame 左小佳
+@play VO1 url=2-xiaojia-213
+「可是事到如今已经没有其他选择吧，我知道这会对你的演出事业产生很大影响……」[p]
+
+@action CHR1 alpha=0 time=200
+@dianame 左晴雨
+@play VO1 url=2-qingyu-215
+「呜……」[p]
+@diaface url=xiaojia_e_face_shirt_embarrass_2
+@dianame 左小佳
+@play VO1 url=2-xiaojia-214
+「可这也不是你的本意，之后诚实的向大家道歉，说明情况，粉丝们还是会理解的吧？」[p]
+
+晴雨依旧默不作声的坐着，不知道她在想些什么。[p]
+@diaface url=xiaojia_e_face_shirt_other_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-216
+「我也希望能够妥善解决这件事情，要是可以的话我也想帮忙。可在见面会前夕生病了这种事……」[p]
+
+@in CHR2 url=qingyu_c1_hoodie_embarrass_1 alpha=0 zoom=61 y=-185 
+@wait in
+@action CHR2 alpha=1 time=200
+@dianame 左晴雨
+@play VO1 url=2-qingyu-217
+「真的吗……小佳你愿意帮我吗？」[p]
+@diaface url=xiaojia_e_face_shirt_smile_3
+@dianame 左小佳
+@play VO1 url=2-xiaojia-218
+「那当然啊，再怎么说你也是我的妹妹，只要能帮上忙，叫我做什么我都愿意！」
+@diaface url=xiaojia_e_face_shirt_embarrass_3
+@dianame 左小佳
+@play VO1 url=2-xiaojia-219
+「只是现在这种情况……我们还是和经纪人打个电话，商量下怎么办吧。」[p]
+@in CHR2 url=qingyu_c2_hoodie_smile_2 alpha=0 zoom=61 y=-185
+@wait in
+@action CHR2 alpha=1 time=100
+@dianame 左晴雨
+@play VO1 url=2-qingyu-220
+「真的吗？小佳什么都肯做吗？」[p]
+
+晴雨从枕头后面探出一个小脑袋，试探性地问道。[p]
+@diaface url=xiaojia_e_face_shirt_other_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-221
+「说话算话。但是你先出来我们再说啊。」[p]
+@action CHR2 alpha=0 time=100
+可是晴雨又钻回了被子里，骨碌骨碌的像是在盘算着什么。[p]
+没一会儿，她总算站了起来，而且是突然站起，身上的被子「唰」的一下滑落在床上。身穿病号服的晴雨站在病床上，伸出手指着我说。[p]
+
+@in CHR2 url=qingyu_c1_hoodie_embarrass_1 alpha=0
+@wait in
+@action CHR2 zoom=61 y=-185 alpha=1
+@dianame 左晴雨
+@play VO1 url=2-qingyu-222
+「左小佳！我需要你的帮助！」[p]
+@diaface url=xiaojia_e_face_shirt_smile_3
+@dianame 左小佳
+@play VO1 url=2-xiaojia-223
+「是是是，等你先想到什么办法再说吧，来先把手机给我。」[p]
+
+@in CHR2 url=qingyu_d_hoodie_happy_1 alpha=0
+@wait in
+@action CHR2 zoom=61 y=-190 alpha=1
+@dianame 左晴雨
+@play VO1 url=2-qingyu-224
+「没错！我想到了！根本不需要什么电话！」[p]
+@diaface url=xiaojia_e_face_shirt_embarrass_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-225
+「你想到啥了？」[p]
+
+恕我直言，这个情况已经没有更好的解决办法了……认命吧。[p]
+
+@in CHR2 url=qingyu_d_hoodie_evil_1 alpha=0
+@wait in
+@action CHR2 zoom=61 y=-190 alpha=1
+@dianame 左晴雨
+@play VO1 url=2-qingyu-226
+「你扮成我的样子，代替我去参加合练和演唱会！」[p]
+
+@diaface url=xiaojia_e_face_shirt_other_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-227
+「是是是，我们先打电……诶？」[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_3
+@dianame 左小佳
+@play VO1 url=2-xiaojia-228
+「诶诶诶诶诶——？！！！！」[p]
+
+@diaface url=xiaojia_e_face_shirt_embarrass_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-229
+「不不不，你开什么玩笑！不可能的！」[p]
+古有木兰替父从军，今有小佳偶像出道？！[p]
+我也不是谦虚，想我堂堂八尺男儿……这怎么看也是要穿帮的啊！
+@action CHR2 alpha=0 time=300
+@action BG1 alpha=0
+@action BG2 alpha=0 time=1000
+@wait action
+@flag A3
+@msgdia
+@play SE1 url=开门02
+@wait play
+@in BG1 url=bg_2 alpha=0
+@wait in
+@action BG1 zoomcenter=(0,0) zoom=75
+@action BG1 alpha=1 time=600
+@msgmono
+[r]
+不得不说，晴雨的行动力确实很强。[r][l]
+在这个具有建设性的意见被提出后的短短三十分钟内，我们就办妥了出院许可，然后搭车回到了（晴雨）家中。[p]
+@in BG1 url=bg_22 zoom=75 x=-240 y=-140 time=1200
+@play BGM1 url=雪どけ time=1000 loop=always
+@wait in
+[r]
+我认真地看着眼前这位熟悉又陌生的女孩，已经有十分钟了。[r][l]
+吹弹可破的肌肤，精雕细琢的脸庞。[r][l]
+即便是睡衣+素颜这种不起眼的组合也掩盖不了她自身的魅力。[r][l]
+可那明媚的眸子里此刻映出的，却只是个长相与她稍有几分神似，个头还算比较接近……[r]
+顶着乱糟糟的头发不说，甚至胡子都没刮干净的男性。[r][l]
+[r]
+晴雨的存在简直就是造物主对这个世界的馈赠，我的扮演只会给她带来瑕疵与污名。[p]
+@msgdia
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-231
+「再怎么说也差太多了吧！我还是短发，根本就是天方夜谭嘛。」[p]
+玩笑还是到此为止吧，我直白地提出了抗议。[p]
+
+@in CHR1 url=qingyu_d_robe_angry_1 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=10
+@dianame 左晴雨
+@play VO1 url=2-qingyu-230
+「没有开玩笑，我是认真的！」[p]
+@in CHR2 url=qingyu_d_robe_angry_2 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=0 time=300
+@action CHR2 alpha=1 time=0
+那认真的表情绝不会说谎，她是真的这么打算的。[p]
+@in CHR1 url=qingyu_d_robe_evil_1 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=0
+@dianame 左晴雨
+@play VO1 url=2-qingyu-232
+「你等一下。」[p]
+@action CHR1 x=150 alpha=0 time=200
+似乎是突然想到什么，晴雨小跑着冲了出去。[r][l]
+半盏茶的功夫，又拿着一个可疑的袋子走了进来。[p]
+
+@in CHR1 url=qingyu_c_robe_smile_1 y=-185 x=190 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=1 x=220 time=200
+
+@dianame 左晴雨
+@play VO1 url=2-qingyu-233
+「拿去，用这个。」[p]
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-234
+「这，这是什么？」[p]
+
+晴雨递给我的，是一套极其精细的女性假发，不管从哪看都属于最顶级的高档货，发质的触感摸起来就跟真发似的。[p]
+@in CHR2 url=qingyu_d_robe_smile_2 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=0 time=300
+@action CHR2 alpha=1 time=0
+@dianame 左晴雨
+@play VO1 url=2-qingyu-235
+「假发啊，之前拍MV的时候用到的，我觉得挺好看就问剧组要来了，没想到现在居然派上了用场。」[p]
+@in CHR1 url=qingyu_d_robe_smile_1 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=10
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+「………」[p]
+
+真不好说这是个好消息还是坏消息。[p]
+不不不，绝对是坏消息！！[p]
+@in CHR2 url=qingyu_d_robe_happy_2 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=0 time=200
+@action CHR2 alpha=1 time=10
+@diaface url=xiaojia_e_face_shirt_other_1
+@dianame 左小佳
+@play VO1 url=2-xiaojia-236
+「可是这也不可能的啊，咱俩又不是双胞胎，并没有那么像的吧？」[p]
+@in CHR1 url=qingyu_d_robe_happy_1 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=200
+@action CHR1 alpha=1 time=0
+@dianame 左晴雨
+@play VO1 url=2-qingyu-237
+「这个简单，你以为我是谁啊？别小看我的化妆技术。」[p]
+@in CHR2 url=qingyu_d_robe_evil_1 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=0 time=200
+@action CHR2 alpha=1 time=10	
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-238
+「可是可是……」[p]
+
+我努力做着申辩。[p]
+@in CHR1 url=qingyu_d_robe_normal y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=0
+@dianame 左晴雨
+@play VO1 url=2-qingyu-239
+「你还有什么不能接受的嘛？」[p]
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-240
+「可我是男的啊……而且，要是暴露了……」[p]
+@in CHR2 url=qingyu_d_robe_angry_1 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=0 time=300
+@action CHR2 alpha=1 time=0
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左晴雨
+@play VO1 url=2-qingyu-241
+「左小佳！」[p]
+
+妹妹突然变得强势起来。[p]
+@in CHR1 url=qingyu_c_robe_embarrass_1 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=10
+@dianame 左晴雨
+@play VO1 url=2-qingyu-242
+「是你说过为了我什么都肯做的吧？」[p]
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-243
+「我是说过，可是……」[p]
+@in CHR2 url=qingyu_c_robe_sad y=-185 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=0 time=300
+@action CHR2 alpha=1 time=0
+@dianame 左晴雨
+@play VO1 url=2-qingyu-244
+「如果做不到就别说！不要，不要让我抱有不切实际的幻想……」[p]
+
+晴雨低下头，是不是我看错了呢？那微微颤动的睫毛下，泪光隐隐闪过。[p]
+@in CHR1 url=qingyu_c_robe_shy_2 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=200
+@action CHR1 alpha=1 time=10
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-245
+「不要哭了，以后……以后由哥哥来保护你！」[p]
+@action CHR1 alpha=0 time=200
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-246
+「我知道了……」[p]
+被拥紧的胸口有点苦闷，我感受着她那微微颤抖的肩膀，心中满是歉意。[p]
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-247
+「知道了啊……我帮你就是了。」[p]
+@dianame 左晴雨
+@play VO1 url=2-qingyu-248
+「耶！得救了！太棒了！！」[p]
+
+咚！[p]
+@dianame 左晴雨
+@play VO1 url=2-qingyu-249
+「好疼……」[p]
+你也不看看位置就乱蹦跶的吗！嘶，疼死我了！[p]
+@diaface url=xiaojia_e_face_shirt_normal
+@dianame 左小佳
+@play VO1 url=2-xiaojia-250
+「不过我也只是配合你尝试下……而且，要是被发现了的话……」[p]
+摸了摸仍在隐隐作痛的下巴，我决定给这个狡猾的妮子泼点冷水。
+@dianame 左晴雨
+@play VO1 url=2-qingyu-251
+「不会！一定可以的！有我在就没问题！保证只要一个晚上，你就能变成左晴雨！」[p]
+@dianame 左晴雨
+@play VO1 url=2-qingyu-252
+「哼哼~小妹妹不要乱动哦，把身体交给姐姐~」[p]
+虽然说答应了试上一试，但晴雨看上去一脸坏笑……应该是我的错觉吧？[p]
+
+修眉刀、眼线笔、粉扑……还有好多我都喊不出名字的工具此刻正在我的脸上轮番施展。[p]
+我究竟会被弄成什么样啊？！[p]
+第一次有了错上贼船的感觉。[p]
+@dianame 左晴雨
+@play VO1 url=2-qingyu-253
+「不要乱动！」[p]
+原本站在我面前给我化妆的晴雨突然贴了上来，手牢牢地按住了我的肩膀。[p]
+是怕我逃跑吗？可左晴雨小姐，你为什么要若无其事地坐到我的大腿上呢？[w]……是因为这样子化妆起来会更方便吗？[p]
+感受着近在咫尺的温度与柔软，我甚至可以从那消毒水的味道里分辨出一缕只属于晴雨的幽香来。[p]
+左晴雨，你赢了……你想怎么折腾就怎么折腾吧！[p]
+@msgoff
+@flag A4
+@stop BGM1 time=1000
+@action BG1 alpha=0 time=600
+@clear BG1
+@action BG2 alpha=0 time=600
+@clear BG2
+@msgdia
+足足花了四十分钟，晴雨才算满意地拍了拍双手。[p]
+@dianame 左晴雨
+@play VO1 url=2-qingyu-254
+「好了，大功告成！」[p]
+@dianame 左晴雨
+@play VO1 url=2-qingyu-255
+「睁开眼睛，看看我的成果吧！」[p]
+晴雨的声音里毫不掩饰自满之情。[p]
+@in BG1 url=bg_22 zoom=75 x=-240 y=-140 time=1200
+@dianame 左小佳
+@play VO1 url=2-xiaojia-256
+「额，这……」[p]
+
+我惊讶的看着镜子，半天才能说的出话来。[p]
+@dianame 左小佳
+@play VO1 url=2-xiaojia-257
+「我的天……你做了什么？！」[p]
+@in BG2 url=evcg_2_1 zoom=60 x=-430 y=-250 time=4000
+@play BGM1 url=大切な約束 time=1000 loop=always
+
+镜子中，一个靓丽的美少女赫然出现在视野里。[p]
+一头短发稍显杂乱，但却遮掩不住那精致的五官……[p]
+脸色虽说有点病态的苍白，但莫名的衬托出了可怜与魅惑的气质来。[p]
+@in BG2 url=evcg_2_11 zoom=60 x=-430 y=-250 time=2000
+@dianame 左晴雨
+@play VO1 url=2-qingyu-259
+「不用看了，这就是你。」[p]
+
+@dianame 左晴雨
+@play VO1 url=2-qingyu-258
+「简单的弄了弄，小佳你本身的条件就不错。不过毕竟是第一次化这种妆，调整上浪费了不少时间。」[p]
+@in BG2 url=evcg_2_5 zoom=60 x=-430 y=-250 time=400
+这居然还是浪费了许多时间完成的？[p]
+我难以置信地伸手摸了摸自己的脸，镜中的“少女”也重复着同样的动作。[p]
+
+@in BG2 url=evcg_2_13 zoom=60 x=-430 y=-250 time=600
+@dianame 左小佳
+@play VO1 url=2-xiaojia-260
+「我……」[p]
+本想说些什么，但我只是轻轻叹了口气。
+一想到仅仅几十分钟的时间，我就从熟悉的自己变成了另一个人，心中不禁百味杂陈。[p]
+@in BG2 url=evcg_2_3 zoom=60 x=-430 y=-250 time=600
+@dianame 左晴雨
+@play VO1 url=2-qingyu-261
+「嗯……脸倒是没问题了……」[p]
+
+晴雨手托着下巴，皱起好看的眉头，围着我转了一圈。[p]
+@in BG2 url=evcg_2_12 zoom=60 x=-430 y=-250 time=600
+@dianame 左晴雨
+@play VO1 url=2-qingyu-262
+「去换一身衣服试试吧，不可能还穿男装去演出的。」[p]
+@action BG2 alpha=0 time=600
+@in BG1 url=bg_22 zoom=75 x=-240 y=-140 time=600
+@wait in
+女，女装？[p]
+晴雨没等我说什么，跑到衣橱前，整个身体探进了里面。这一次比找假发花了更长时间，不时丢出几件不满意的衣服。[p]
+@dianame 左晴雨
+@play VO1 url=2-qingyu-263
+「啊，有了有了。」[p]
+
+说着，晴雨抱着两件叠好的衣服跑了回来，看得出是成套的套装，一件吊带衫和一件卫衣。[p]
+@in CHR2 url=qingyu_d_robe_smile_2 y=-185 x=290 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=0 time=300
+@action CHR2 alpha=1 x=320 time=200
+@dianame 左晴雨
+@play VO1 url=2-qingyu-264
+「把这些先穿上，咱俩身高也差得不多，尺寸上应该没什么问题。」[p]
+@in CHR1 url=qingyu_d_robe_happy_2 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=10
+@dianame 左小佳
+@play VO1 url=2-xiaojia-265
+「好，好的……」[p]
+
+我犹豫着结果衣服，突然想到一个很关键的问题。[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-266
+「对了……」[p]
+@in CHR2 url=qingyu_d_robe_normal y=-185 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=0 time=300
+@action CHR2 alpha=1 time=10
+@dianame 左晴雨
+@play VO1 url=2-qingyu-267
+「还愣着干嘛？怎么了？」[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-268
+「那个……胸，胸部怎么办……」[p]
+@in CHR1 url=qingyu_c_robe_embarrass_1 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=10
+@motion CHR1 x=(2,10,1)|(-2,10,-1) loop=3
+@wait time=400
+@dianame 左晴雨
+@play VO1 url=2-qingyu-269
+「唔……左小佳，你这个变态！」[p]
+@action CHR1 alpha=0 time=200
+晴雨的脸刷的一下红了起来，咦？[w][r]
+难道她现在才想到这一点？这不是最重要的问题吗？[p]
+吃下一记巴掌，我委屈的看着晴雨红着脸走来走去，最后像下定决心一般跺了跺脚。[p]
+@stop BGM1 time=1000
+@in CHR1 url=qingyu_a_robe_evil_2 y=-280 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=200
+@dianame 左晴雨
+@play VO1 url=2-qingyu-270
+「左小佳！」[p]
+@dianame 左小佳
+@play VO1 url=2-xiaojia-271
+「干嘛？」[p]
+@in CHR2 url=qingyu_c_robe_sad y=-105 zoom=75 alpha=0
+@wait in
+@action CHR1 alpha=0 time=300
+@action CHR2 alpha=1 time=10
+@dianame 左晴雨
+@play VO1 url=2-qingyu-272
+「这，这都是为了顺利解决明天的事情，而不是满足你这个变态的欲望！」[p]
+@action CHR2 alpha=0 time=200
+@play BGM1 url=おバカが行く time=1000 loop=always
+
+晴雨涨红着脸说道，迅速地将衣橱里取出的某样东西塞进我的手中，然后立马拉开了距离。[p]
+我低头看了看她塞给我的东西。[p]
+嗯，软软的……[p]
+还很有弹性……微妙的弧形设计……薄薄的布料，这难道说是……[p]
+@in CHR1 url=qingyu_a_robe_shy_2 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=100
+@dianame 左晴雨
+@play VO1 url=2-qingyu-273
+「不要捏啊！笨蛋！」[p]
+@action CHR1 alpha=0 time=200
+;撞击
+@motion BG1 y=(8,10,3)|(-8,10,3) loop=0
+面部遭到了晴雨丢来的衣物的重击。[p]
+手里下意识捏了捏妹妹的内衣，理所当然的收到了回礼。[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-274
+「不捏就不捏，反正我还不想假扮成你呢。你看，这样实在不好对不对？要不我们想想别的办法？」[p]
+@in CHR2 url=qingyu_d_robe_angry_1 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=0 time=300
+@action CHR2 alpha=1 time=10
+@dianame 左晴雨
+@play VO1 url=2-qingyu-275
+「不，不行！随你怎么捏吧！这件内衣给你好了！我不要了！」[p]
+
+明明是你自己塞给我的，又这么生气……[p]
+
+@dianame 左晴雨
+@play VO1 url=2-qingyu-276
+「你自己去客厅穿好！内衣也要穿在里面，快！」[p]
+@action CHR2 alpha=0 time=200
+@play SE1 url=关门06
+@action BG2 alpha=0 time=200
+@wait action
+@in BG1 url=bg_2 zoom=75 x=-240 y=-140 alpha=0
+@wait in
+@action BG1 alpha=1 time=1200
+
+晴雨推着我的后背把我赶到客厅，只留下无助的我拿着妹妹的内衣……[p]
+……[l][r]
+………[l][r]
+…………[p]
+@dianame 左晴雨
+@play VO1 url=2-qingyu-277
+「穿，穿好了吗？」[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-278
+「还，还没有。」[p]
+
+三两下把自己穿着的衣服脱了下来，扔到了沙发上，然后看着面前的女装和假发，我不由得吞了下口水。[p]
+真的要穿这些吗……[p]
+老实说我根本没有这方面的爱好，如果不是迫于无奈，估计一辈子也不会产生这样的念头。[p]
+我拿起晴雨的内衣，布料轻薄的手感从指尖传来。[p]
+这，这是晴雨曾经贴身穿过的内裤啊……[p]
+
+@dianame 左晴雨
+@play VO1 url=2-qingyu-279
+「还没好吗？」[p]
+
+还没等我多想，晴雨的催促声再一次传了过来。[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-280
+「哪有那么快的？」[p]
+
+我这边可是要做很多心理准备的啊！[p]
+我在心底埋怨，但还是加速了手上的动作。[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-281
+「话说晴雨，胖次什么为什么会有个小口袋啊？是要装什么的吗？」[p]
+@motion BG1 y=(8,10,3)|(-8,10,3) loop=4
+乒铃乓啷，从卧室传来晴雨踢到东西的声音。[p]
+
+@dianame 左晴雨
+@play VO1 url=2-qingyu-282
+「你，你你你你你你你个变态！不要看！别管那些！变态左小佳！」[p]
+
+！！！[p]
+@msgmono
+[r]
+晴雨的喊声残忍地摧残着我的耳膜，明明只有点好奇而已……[l][r]
+豁出去了，我一把提上胖次。[l][r]
+啊，好紧！[l][r]
+[r]
+衣服比了比还算合适，可这内裤确实小了一点，提到大腿根部就很难提上去了。[l][r]
+一想到女孩子的内裤此刻正紧密地贴合着我的大腿神厨……心里突然就有了一种负罪感。[l][r]
+忍受着下体的拘束不便，好在其他衣物的穿戴倒还算顺利。[p]
+@msgoff
+@action BG1 alpha=0 time=600
+@wait action
+@in BG1 url=bg_2 zoom=75 x=-240 y=-140 time=1200
+@msgdia
+不过很快，我便又遇到了难题。[p]
+胸，胸罩……[p]
+这东西要怎么穿啊？！[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-283
+「这还真是意料之外的技术活……」[p]
+我试着先将它像模像样传到身上，接着双手绕到身后，可背扣无论如何都无法成功扣上。[p]
+@dianame 左晴雨
+@play VO1 url=2-qingyu-284
+「你到底在搞什么啊？还没好？」[p]
+有些不耐烦的晴雨一把拉开了房门。[p]
+@dianame 左晴雨
+「……」[p]
+@dianame 左小佳
+「……」[p]
+@motion BG2 y=(8,10,3)|(-8,10,3) loop=2
+@in BG2 url=white time=100
+@dianame 左晴雨
+@play VO1 url=2-qingyu-285
+「啊啊啊！！变态！我的屋子里有个变态啊！！」[p]
+@action BG2 alpha=0 time=600
+@wait action
+@dianame 左小佳
+@play VO1 url=2-xiaojia-286
+「冷静，冷静一点！是我好吗？」[p]
+
+呆站在原地的我赤裸着上身，身上挂着穿到一半的胸罩……[r]
+而下半身还只穿着女式内裤和过膝袜。[p]
+看到这一幕，任谁都会觉得变态吧……[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-287
+「那个，后面的扣扣不上……」[p]
+
+我抬起一只手，如实汇报情况。[p]
+@in CHR2 url=qingyu_c_robe_smile_1 y=-185 x=190 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=0 time=300
+@action CHR2 alpha=1 x=220 time=300
+@dianame 左晴雨
+@play VO1 url=2-qingyu-288
+「真，真的？」[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-289
+「真的，你过来看看吧。」[p]
+
+我转过身去背对晴雨，她似乎是犹豫了一下，随后还是缓缓地靠了过来。[p]
+@in CHR1 url=qingyu_c_robe_smile_1 y=-105 zoom=75 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=10
+@dianame 左晴雨
+@play VO1 url=2-qingyu-290
+「不是这样穿的啦，笨蛋！」[p]
+晴雨从我手中接过与扣子斗争的工作。[p]
+
+@dianame 左晴雨
+@play VO1 url=2-qingyu-291
+「应该是先把扣子扣好，然后再......」[p]
+
+声音越来越小，最后没了动静，只是默默地帮我扣好了内衣。
+
+@in CHR2 url=qingyu_c_robe_shy_2 y=-105 zoom=75 alpha=0
+@wait in
+@action CHR1 alpha=0 time=300
+@action CHR2 alpha=1 time=10
+@dianame 左晴雨
+@play VO1 url=2-qingyu-292
+「快把衣服穿上吧！这个给你，买内衣时候的赠品，我用不到。」[p]
+@action CHR2 alpha=0 time=200
+这是……胸垫？[p]
+我家晴雨虽然称不上巨乳，但身材依然算是玲珑有致，根本用不到这类东西。[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-295
+「这个……塞进去就行了吗？」[p]
+
+我捏了捏手里的胸垫，分别将它们塞进左右两边，用手托了托底部，勉强把整个内衣都撑了起来。[p]
+老实说感觉和晴雨比起来稍微小了一些，不过视觉上看不出太大误差。[p]
+
+@in CHR1 url=qingyu_a_robe_hate_2 y=-280 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=200
+@dianame 左晴雨
+@play VO1 url=2-qingyu-293
+「不行，左小佳你好恶心。」[p]
+@action CHR1 alpha=0 time=200
+@dianame 左小佳
+@play VO1 url=2-xiaojia-294
+「又不是我愿意的好吗？！」[p]
+
+天理何在啊！不过想了想确实是一副很变态的画面，客厅里没有镜子，可是光是脑补一个试图带上胸罩的大男人，就已经很有冲击力了。[p]
+
+……[l][r]
+………[l][r]
+…………[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-296
+「穿，穿好了……」[p]
+@stop BGM1 time=3000
+
+最后套上吊带衫和卫衣，调整好了假发的位置，我叩响了卧室的大门。[p]
+
+@in BG1 url=evcg_2_9 zoom=60 x=-430 y=-250 time=1200
+@dianame 左晴雨
+@play VO1 url=2-qingyu-297
+「嗯嗯，8.5分左右吧。」[p]
+@in BG2 url=evcg_2_8 zoom=60 x=-430 y=-250 time=600
+晴雨双手抱在胸前看着我，满意的点了点头。[p]
+也许是因为外貌的转变，晴雨对我没有了以往那般的戒备心与厌恶，开心的将手搭在我的肩膀上。[p]
+这画面看上去搞不好会被误认成是姐妹……[p]
+我被晴雨带到镜子前，镜中的我已经与之前判若两人，一颦一笑间，都洋溢着青春的气息。[p]
+@in BG2 url=evcg_2_10 zoom=60 x=-430 y=-250 time=600
+@wait in
+@dianame 左小佳
+@play VO1 url=2-xiaojia-298
+「这样就可以了吧？没想到还挺轻松的，哈哈。」[p]
+
+看见镜子里的自己，我甚至有种被自己惊艳到的感觉……[p]
+@in BG2 url=bg_22 zoom=75 x=-240 y=-140 time=600
+@wait in
+晴雨抱着我的手臂摇晃着，但当注意到我的视线后，才发现哪里不对，立即甩到了一边。[p]
+@in CHR1 url=qingyu_d_robe_angry_1 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=10
+@dianame 左晴雨
+@play VO1 url=2-qingyu-299
+「咳，怎么可能这么轻松？虽然演唱会还有好几天的时间，但是明天就要进行第一次的合练了，那才是考验！」[p]
+@in CHR2 url=qingyu_d_robe_smile_2 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=10
+@dianame 左晴雨
+@play VO1 url=2-qingyu-300
+「模仿我的声音，举止，处事态度，说话习惯，要准备的东西多了去了！」[p]
+@in CHR1 url=qingyu_d_robe_normal y=-185 zoom=61 alpha=0
+@wait in
+@action CHR2 alpha=0 time=300
+@action CHR1 alpha=1 time=10
+@dianame 左小佳
+@play VO1 url=2-xiaojia-301
+「那个……」[p]
+
+我举起一只手，向晴雨提出申请。[p]
+
+@dianame 左小佳
+@play VO1 url=2-xiaojia-302
+「我能放弃吗？」[p]
+@in CHR2 url=qingyu_d_robe_evil_1 y=-185 zoom=61 alpha=0
+@wait in
+@action CHR1 alpha=0 time=300
+@action CHR2 alpha=1 time=0
+@dianame 左晴雨
+@play VO1 url=2-qingyu-303
+「你说呢？」[p]
+晴雨用一记手刀代替回应。[p]
+@action CHR2 alpha=0 time=200
+@action BG1 alpha=0 time=200
+@action BG2 alpha=0 time=200
+@wait action
+就这样，即使有千百般不情愿，我还是开始了一整晚的魔鬼特训。[p]
